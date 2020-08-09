@@ -27,7 +27,7 @@ services:
       DB_USER: app
       DB_PASSWORD: secret
       DB_NAME: app
-      DB_URL: pgsql://app:secret@api-postgres:5432/app
+      DB_URL: webapp:${DATABASE_URL}
     volumes:
       - ./:/app
 

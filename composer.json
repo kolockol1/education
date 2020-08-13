@@ -56,7 +56,8 @@
         "preferred-install": {
             "*": "dist"
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "disable-tls": false
     },
     "autoload": {
         "psr-4": {
